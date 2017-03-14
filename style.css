@@ -1,0 +1,206 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+.titre{ 
+	
+	border:3px double grey;
+	border-radius:0px;
+	background-color: rgba(168, 66, 70, 0.6);
+	width: 30%;
+	margin:0 auto;
+	color:white;
+	font-size:350%;
+	font-family: Calibri;
+	font-style:normal;
+	font-weight:normal;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	word-spacing: 7px;
+	
+}
+
+ul{
+	
+	font-family: Candara;
+	font-size:110%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:25%;
+	height: 180px;
+	border:none;
+	margin:0 auto;
+	text-transform: uppercase;	
+	list-style-type: none;
+}
+
+a:link, a:visited {
+    background-color: rgba(168, 66, 70, 0.6);
+    color: white;
+    padding: 10px 2px;
+	width:100%;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+body{
+	background-image:url("image/fond.jpg");
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	background-position: center;
+}
+
+section{
+	border:5px solid;
+	border-color: grey;
+	border-radius:0px;
+	margin:0 auto;
+	width: 95%;
+    background-color: rgba(168, 66, 70, 0.8);
+	color:white;
+	padding:20px;
+	margin-bottom:30px;
+	font-family:Calibri;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 140%;
+	margin:0 auto;
+
+}
+
+h2{
+	border:5px solid;
+	border-color: grey;
+	border-radius:0px;
+	width: 20%;
+	margin: -25px 10px 10px -25px;
+	text-transform: uppercase;
+	text-align:right;
+	font-size:170%;
+	background-color:grey;
+	
+}
+
+article{
+
+	text-align:justify;
+	margin:20px 300px 20px 300px ;
+	max-width: 800px;
+	min-width:200px;
+	padding:20px;
+	margin-bottom:20px;
+	overflow: auto;
+	font-size:120%;
+	font-family: calibri;
+}
+
+ol{
+	list-style-type: square;
+	list-style-position: inside;
+
+}
+
+ol li {
+  
+    padding: 15px;
+	margin-left: 35px;
+}
+
+.element img{
+	margin: 5px;
+	float: left;
+	width:400px;
+	height: 600px;
+
+	
+}
+
+div.desc{
+	text-align:left;
+	font-size:100%;
+	padding-top:550px;
+}
+
+div.desc2{
+	text-align:left;
+	font-size:150%;
+	font-family:Times new roman;
+	text-decoration:underline;
+	padding-bottom:15px;
+	padding-top:70px;
+}
+
+div.parte img {
+
+	width:400px;
+	height: 500px;
+
+}
+
+
+/* Pour le formulaire*/
+
+article form{
+	margin: 0 auto;
+	top:100%;
+}
+
+form input{
+
+	margin-left:70px;
+}
+
+form textarea{
+	padding-bottom:15px;
+	margin-left:70px;
+}
+
+form{
+	
+	background-color:rgba(168,168,168,0.7);
+	padding:30px;
+	width:700px;
+	}
+
+input, textarea {
+	background-color:rgba(168, 46, 55, 0.9);
+	color:white;
+	font-family:Candara;
+	padding:8px;
+	border:0px hidden;
+	border-radius:7px;
+	width:400px;
+	box-shadow: 1px 1px 2px #C0C0C0 inset;
+	
+}
+
+textarea{
+	width:550px;
+}
+
+input[type=radio] {
+	background-color:transparent;	
+}
+
+input[type=submit], input [type=reset]{
+	width:150px;
+	height:50px;
+	margin-left:85px;
+	box-shadow:1px 1px 1px#D83D3D;
+	cursor:pointer;
+}
+footer{
+	font-family:calibri;
+}
